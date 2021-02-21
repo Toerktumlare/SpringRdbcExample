@@ -1,4 +1,6 @@
-CREATE DATABASE myDatabase;
+CREATE DATABASE "myDatabase";
+
+CREATE SCHEMA vehicles;
 
 CREATE TABLE categories (
     id              SERIAL PRIMARY KEY,
