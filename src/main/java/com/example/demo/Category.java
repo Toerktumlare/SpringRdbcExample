@@ -10,7 +10,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("categories")
+@Table("vehicles.categories")
 public class Category {
 
     private Integer id;
